@@ -13,7 +13,7 @@ public class RingTest {
     public void Ring2() {
         Ring ring = new Ring();
         assertEquals("Ring", figureSquare.getName());
-        assertEquals(314, figureSquare.square(), 0.6);
+        assertEquals(112, figureSquare.square(), 0.6);
     }
 
     @Test

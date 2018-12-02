@@ -12,7 +12,7 @@ public class ParallelogramTest {
 
     @Test
     public void par1() {
-        Parallelogram parallelogram = new Parallelogram(6,5,45);
+        Parallelogram parallelogram = new Parallelogram(4,10,55);
         assertEquals("Parallelogram", figureSquare.getName());
         assertEquals(21, figureSquare.square(), 0.7);
     }
@@ -26,7 +26,7 @@ public class ParallelogramTest {
 
     @Test
     public void par3() {
-        Parallelogram parallelogram = new Parallelogram(5,9,-34);
+        Parallelogram parallelogram = new Parallelogram(3,12,32);
         assertEquals("Parallelogram", figureSquare.getName());
         assertEquals(6, figureSquare.square(), 0.7);
     }
