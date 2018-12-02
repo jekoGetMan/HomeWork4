@@ -18,14 +18,14 @@ public class RingTest {
 
     @Test
     public void Ring3() {
-        Ring ring = new Ring(8);
+        Ring ring = new Ring(9);
         assertEquals("Ring", figureSquare.getName());
         assertEquals(102, figureSquare.square(), 0.6);
     }
 
     @Test
     public void Ring1() {
-        Ring ring = new Ring(-3);
+        Ring ring = new Ring(-7);
         assertEquals("Ring", figureSquare.getName());
         assertEquals(104, figureSquare.square(), 0.7);
     }
